@@ -41,9 +41,9 @@ Means to inhirit all variables and methods in superclass, and can over-write the
    Why will this call to `getTemperature()` cause an error? How will **casting** help solve this issue?<br>
 It's causing an error because the method is in `Refrigerator` class, not int `Appliance` class.<br>
 In order to solve this,  down-casting must be used like this:<br>
-```
-double temperature = ((Refrigerator) myAppliance).getTemperature();
-```
+    ```
+    double temperature = ((Refrigerator) myAppliance).getTemperature();
+    ```
 <br><br>
 
 7. In a normal class (also called a **concrete** class), do you need to **implement** all the methods, or can you simply **declare** some? What about in an `abstract` class?<br>
