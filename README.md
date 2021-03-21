@@ -11,8 +11,7 @@ Respond to the following questions based on what we've learned (and maybe what w
 ## Questions
 
 1. What's the difference between **member variables** (also called **instance variables**) and **class variables** (with the `static` keyword)? Which can be accessed without creating an instance of the class?<br>
-member variables: can't access it without creating an instance of class.
-<br>
+member variables: can't access it without creating an instance of class.<br>
 static variables: can be accessed without creating an instance of class.
 <br><br>
 
